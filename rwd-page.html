@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+  <title>Responsive Web Design</title>
+  <link rel="stylesheet" type="text/css" href="">
+  </head>
+  <body>
+    
+    <h1>Responsive Web Design</h1>
+    
+    <article>
+      <p>With thousands of different devices being used to access the web today, making your website responsive on various devices and screens has become a requirement for success. Content that's readable and pleasing on a large screen can become illegible and frustrating on a mobile device, driving your visitors away before they've even explored your content. In addition to these user-centered considerations, your website may be downranked in search engines if it's not responsive, meaning that potential visitors never find your site at all!</p>
+      <p>Making your website responsive doesn't need to be a scary prospect. The easiest way to start is by designing for mobile screens first, to make sure that you don't have unnecessary content cluttering up your pages. All of the important text, images and other content should be able to fit on a small mobile device in a way that's easy for users to understand and navigate. Once you have the mobile site laid out, you can decide whether to include extra (but non-essential) features on the larger versions of your pages.</p>
+      <p>What to find out more about responsive web design? Contact us!</p>
+    </article>
+    
+    <form method="get">
+      
+<!-- Basic contact information - Name & email required -->
+      <label>
+        Name: 
+        <input type="text" name="name" required>
+      </label>
+
+      <label>
+        Email: 
+        <input type="email" name="email" required>
+      </label>
+
+      <label>Phone:
+        <input type="number" name="phone" pattern="\d{3}[\-]\d{3}[\-]\d{4}" maxlength="12" placeholder="555-555-5555">
+      </label>
+
+<!-- About their site & users -->
+      <fieldset>
+        <legend>Do you have a website already?</legend>
+        <label>Yes
+          <input type="radio" name="have-website" value="yes" required>
+        </label>
+        <label>No
+          <input type="radio" name="have-website" value="yes" required>
+        </label>
+      </fieldset>
+
+      <label>What is (or will be) the main purpose of your website?</label>
+      <select name="site-purpose">
+        <option value="">Please select one</option>
+        <option value="informative">Information</option>
+        <option value="entertainment">Entertainment</option>
+        <option value="community">Community/Forum</option>
+        <option value="ecommerce">Shopping</option>
+        <option value="service">Service</option>
+      </select>
+
+      <fieldset>
+        <legend>What types of devices do you expect to access your website?</legend>
+        <label>Smartphone
+          <input type="checkbox" name="devices" value="smartphone">
+        </label>
+        <label>Tablet computer
+          <input type="checkbox" name="devices" value="tablet">
+        </label>
+        <label>Laptop computer
+          <input type="checkbox" name="devices" value="laptop">
+        </label>
+        <label>Desktop computer
+          <input type="checkbox" name="devices" value="desktop">
+        </label>
+        <label>Gaming console
+          <input type="checkbox" name="devices" value="console">
+        </label>
+        <label>Smart TV
+          <input type="checkbox" name="devices" value="tv">
+        </label>
+      </fieldset>
+
+<!-- Submit button -->
+      <input type="submit" value="Send">
+      
+    </form>
+    
+  </body>
+</html>
