@@ -39,11 +39,11 @@ input[type=text] {
 
 label {
   display: block;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 legend {
-  font-weight: 500;
+  font-weight: 600;
 }
 
 /* Get the first name and last name fields next to eachother */
