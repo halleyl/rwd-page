@@ -40,12 +40,10 @@ input[type=text] {
 label {
   display: block;
   font-weight: 600;
-  font-size: 1rem;
 }
 
 legend {
   font-weight: 600;
-  font-size: 1rem;
 }
 
 /* Get the first name and last name fields next to eachother */
@@ -94,7 +92,7 @@ fieldset {
 /* Make each checkbox and radio button have its own line */
 fieldset label {
   display: block;
-  font-size: .9rem;
+  font-size: .9em;
 }
 
 /* Add a little spacing above first and below last radio or checkbox */
@@ -123,7 +121,7 @@ input[type=submit] {
   border: 1px solid #666666;
   background-color: darkgoldenrod;
   color: white;
-  font-size: 1rem;
+  font-size: 1em;
 }
 
 /* Add hover state to button */
@@ -149,8 +147,63 @@ footer p {
   and (min-device-width: 320px) 
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2) {
+    
+    h1 {
+      font-size: 6rem;
+      line-height: 7rem;
+    }
+    
+    p {
+      margin: 2.5rem 0;
+      font-size: 2rem;
+      line-height: 2.5rem;
+    }
 
-    input[type=text], textarea {
-        width:75%;
+    label {
+      font-size: 3rem;
+      line-height: 4rem;
+    }
+    
+    legend {
+      font-size: 3em;
+      line-height: 4em;
+    }
+    
+    input {
+      font-size: 2.5rem;
+    }
+        
+    fieldset legend {
+      line-height: 4rem;
+    }
+
+    fieldset label {
+      font-size: 2.5rem;
+      line-height: 3em;
+    }
+
+    input[type=text], [type=tel], [type=email] {
+      width:100%;
+      height: 5rem;
+      font-size: 3rem;
+    }
+      
+    .select-group select {
+      font-size: 2rem;
+      height: 5rem;
+      width: 90%;
+      padding: 1rem 4rem 1rem 1rem;
+    }
+
+    input[type=radio], [type=checkbox] {
+      border: 1px solid #cccccc;
+      width: 1.5em;
+      height: 1.5em;
+    }
+    
+    input[type=submit] {
+      font-size: 4rem;
+      width: 100%;
+      padding: 2rem 4rem;
     }
 }
