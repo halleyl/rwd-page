@@ -1,5 +1,4 @@
 /* Give a little space around the body */
-
 body {
   width: 90%;
   margin: 1rem auto 2rem;
@@ -21,9 +20,31 @@ input {
   box-sizing: border-box;
 }
 
+/* Make placeholder text lighter */
+::placeholder {
+  color: #dddddd;
+}
+
 /* Styles for text/number input types, so they're on their own line */
 input[type=text] {
   display: block;
+}
+
+/* Give the label text a shorter line height */
+label p {
+  margin: 0;
+  line-height: 1rem;
+}
+
+/* Get the first name and last name fields next to eachother */
+.first {
+  display: block;
+  float: left;
+}
+
+/* Clear the float from first/last name boxes */
+.last::after {
+  clear: both;
 }
 
 input[type=email] {
@@ -64,16 +85,20 @@ fieldset label {
   font-size: .9rem;
 }
 
-/* Add a little spacing above first radio/checkbox */
+/* Add a little spacing above first and below last radio or checkbox */
 fieldset label:first-of-type {
   margin-top: 5px;
+}
+
+fieldset label:last-of-type {
+  margin-bottom: 10px;
 }
 
 /* Make the submit button bigger, squarer and flatter */
 input[type=submit] {
   display: block;
   padding: .5rem 2rem .5rem 2rem;
-  border: 1px solid #cccccc;
+  border: 1px solid #666666;
   background-color: darkgoldenrod;
   color: white;
   font-size: 1rem;
