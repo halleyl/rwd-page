@@ -28,7 +28,7 @@ input {
 
 /* Make placeholder text lighter */
 ::placeholder {
-  color: #dddddd;
+  color: #808080;
 }
 
 /* Styles for text/number input types, so they're on their own line */
@@ -38,12 +38,11 @@ input[type=text] {
 
 label {
   display: block;
+  font-weight: 600;
 }
 
-/* Give the label text a shorter line height */
-label p {
-  margin: 0;
-  line-height: 1rem;
+legend {
+  font-weight: 600;
 }
 
 /* Get the first name and last name fields next to eachother */
@@ -105,9 +104,13 @@ fieldset label:last-of-type {
 }
 
 /* Reduce some spacing around fieldset paragraphs */
-fieldset p {
+fieldset legend {
   line-height: 1.3rem;
   margin: 0;
+}
+
+fieldset label {
+  font-weight: 400;
 }
 
 /* Make the submit button bigger, squarer and flatter */
