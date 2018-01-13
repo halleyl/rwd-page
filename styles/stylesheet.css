@@ -137,7 +137,10 @@ input[type=submit]:active {
   color: darkgoldenrod;
 }
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) {
 
   input[type=text], input[type=url], input[type=email], input[type=tel] {
     -webkit-appearance: none; -moz-appearance: none;
