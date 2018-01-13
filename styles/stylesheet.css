@@ -52,7 +52,7 @@ legend {
 }
 
 /* Clear the float from first/last name boxes */
-.last::after {
+.email {
   clear: both;
 }
 
