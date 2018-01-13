@@ -74,8 +74,16 @@ input[type=submit] {
   display: block;
   padding: .5rem 2rem .5rem 2rem;
   border: 1px solid #cccccc;
-  background-color: #ffffff;
+  background-color: darkgoldenrod;
+  color: white;
   font-size: 1rem;
+  box-shadow: 3px 3px 5px #999999;
+}
+
+/* Add an active state to button */
+input[type=submit]:active {
+  background-color: white;
+  color: darkgoldenrod;
 }
 
 footer p {

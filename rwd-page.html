@@ -16,17 +16,21 @@
       <p>What to find out more about responsive web design? Contact us!</p>
     </article>
     
-    <form method="get" col_4_of_4>
+    <form method="get">
       
 <!-- Basic contact information - Name & email required -->
       <label>
-        Name: 
-        <input type="text" name="name" required>
+        Your Name: 
+        <input class="first" type="text" name="first-name" required placeholder="First name">
       </label>
 
       <label>
+        <input class="last" type="text" name="last-name" required placeholder="Last name">
+      </label>
+
+      <label class="email">
         Email: 
-        <input type="email" name="email" required>
+        <input type="email" name="email" required placeholder="email@example.com">
       </label>
 
       <label>Phone:
