@@ -17,6 +17,7 @@ p {
   margin: 1rem 0;
   line-height: 1.3rem;
   max-width: 35rem;
+  font-weight: 300;
 }
 
 /* Style for all input types */
@@ -38,11 +39,11 @@ input[type=text] {
 
 label {
   display: block;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 legend {
-  font-weight: 600;
+  font-weight: 500;
 }
 
 /* Get the first name and last name fields next to eachother */
@@ -110,7 +111,7 @@ fieldset legend {
 }
 
 fieldset label {
-  font-weight: 400;
+  font-weight: 300;
 }
 
 /* Make the submit button bigger, squarer and flatter */
