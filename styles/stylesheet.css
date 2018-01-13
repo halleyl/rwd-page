@@ -36,6 +36,10 @@ input[type=text] {
   display: block;
 }
 
+label {
+  display: block;
+}
+
 /* Give the label text a shorter line height */
 label p {
   margin: 0;
