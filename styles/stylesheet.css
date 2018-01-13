@@ -1,0 +1,86 @@
+/* Give a little space around the body */
+
+body {
+  width: 90%;
+  margin: 1rem auto 2rem;
+  font-family: 'Montserrat', sans-serif;
+  background-color: floralwhite;
+}
+
+/* Add breaks between paragraphs, add some extra line spacing */
+p {
+  margin: 1rem 0;
+  line-height: 1.3rem;
+  max-width: 35rem;
+}
+
+/* Style for all input types */
+input {
+  padding: 2px;
+  margin: 5px 10px 10px 0;
+  box-sizing: border-box;
+}
+
+/* Styles for text/number input types, so they're on their own line */
+input[type=text] {
+  display: block;
+}
+
+input[type=email] {
+  display: block;
+}
+
+input[type=tel] {
+  display: block;
+  margin-bottom: 20px;
+}
+
+/* Change the margins for radio buttons and checkboxes (more space on the left so they hug their labels to the right) */
+input[type=radio] {
+  margin: 5px 0;
+}
+
+input[type=checkbox] {
+  margin: 5px 0;
+}
+
+/* Style select to look more flat, add margins */
+select {
+  display: block;
+  height: 1.5rem;
+  margin: 5px 10px 20px 0;
+  border: 1px solid #cccccc;
+  background-color: #ffffff;
+}
+
+/* Make a little space around fieldsets */
+fieldset {
+  margin: 10px 0;
+}
+
+/* Make each checkbox and radio button have its own line */
+fieldset label {
+  display: block;
+  font-size: .9rem;
+}
+
+/* Add a little spacing above first radio/checkbox */
+fieldset label:first-of-type {
+  margin-top: 5px;
+}
+
+/* Make the submit button bigger, squarer and flatter */
+input[type=submit] {
+  display: block;
+  padding: .5rem 2rem .5rem 2rem;
+  border: 1px solid #cccccc;
+  background-color: #ffffff;
+  font-size: 1rem;
+}
+
+footer p {
+  font-size: .8rem;
+  display: block;
+  margin: auto;
+  text-align: center;
+}
