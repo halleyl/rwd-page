@@ -6,6 +6,12 @@ body {
   background-color: floralwhite;
 }
 
+/* Change size and color of heading */
+h1 {
+  font-size: 2rem;
+  color: darkgoldenrod;
+}
+
 /* Add breaks between paragraphs, add some extra line spacing */
 p {
   margin: 1rem 0;
@@ -94,6 +100,12 @@ fieldset label:last-of-type {
   margin-bottom: 10px;
 }
 
+/* Reduce some spacing around fieldset paragraphs */
+fieldset p {
+  line-height: 1.3rem;
+  margin: 0;
+}
+
 /* Make the submit button bigger, squarer and flatter */
 input[type=submit] {
   display: block;
@@ -102,7 +114,11 @@ input[type=submit] {
   background-color: darkgoldenrod;
   color: white;
   font-size: 1rem;
-  box-shadow: 3px 3px 5px #999999;
+}
+
+/* Add hover state to button */
+input[type=submit]:hover {
+  background-color: tan;
 }
 
 /* Add an active state to button */
@@ -111,6 +127,7 @@ input[type=submit]:active {
   color: darkgoldenrod;
 }
 
+/* Make footer copyright small and centered */
 footer p {
   font-size: .8rem;
   display: block;
