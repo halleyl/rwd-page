@@ -17,7 +17,7 @@ p {
   margin: 1rem 0;
   line-height: 1.3rem;
   max-width: 35rem;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 /* Style for all input types */
@@ -111,7 +111,7 @@ fieldset legend {
 }
 
 fieldset label {
-  font-weight: 300;
+  font-weight: 400;
 }
 
 /* Make the submit button bigger, squarer and flatter */
